@@ -146,7 +146,7 @@ The `SIGNAL_REQUIRE_HUMAN_APPROVAL=true` flag (default) enforces this gate in th
 
 ## Feedback Filed
 
-Feedback on the `@hashgraph/hedera-agent-kit` package was filed on the [hedera-agent-kit GitHub repository](https://github.com/hedera-dev/hedera-agent-kit/issues) during development, specifically around:
+Feedback on the `@hashgraph/hedera-agent-kit` package was filed as **[issue #836 on the hedera-agent-kit-js GitHub repository](https://github.com/hashgraph/hedera-agent-kit-js/issues/836)** during development, covering:
 
 1. **`HederaAgentKit` vs `HederaAgentAPI`** — The exported class name is `HederaAgentAPI`, not `HederaAgentKit` as implied by the package name and most documentation. This caused initial confusion.
 2. **`ToolDiscovery.getAllTools()` returns empty without registered plugins** — The runtime tool discovery method returns an empty array unless plugins are explicitly registered. The workaround (enumerating `UPPERCASE_TOOL` constants from the plugins export) works but isn't documented.
@@ -162,4 +162,5 @@ Feedback on the `@hashgraph/hedera-agent-kit` package was filed on the [hedera-a
 | GitHub repo | https://github.com/ruark-xyz/frametab-signal-agent |
 | HashScan operator wallet | https://hashscan.io/mainnet/account/0.0.10487520 |
 | Hedera Agent Kit npm | https://www.npmjs.com/package/@hashgraph/hedera-agent-kit |
-| Hedera Agent Kit repo | https://github.com/hedera-dev/hedera-agent-kit |
+| Hedera Agent Kit repo | https://github.com/hashgraph/hedera-agent-kit-js |
+| Feedback filed | https://github.com/hashgraph/hedera-agent-kit-js/issues/836 |
