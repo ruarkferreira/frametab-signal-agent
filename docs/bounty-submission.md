@@ -1,9 +1,9 @@
 # Hedera Agent AI Bounty — Week 1 Submission
 
 **Project:** FrameTab Signal Agent  
-**Team:** FrameTab (ruark-xyz)  
-**Live demo:** https://app.frametab.gallery  
-**Repository:** https://github.com/ruark-xyz/frametab-signal-agent  
+**Team:** FrameTab  
+**Live demo:** https://www.frametab.gallery  
+**Repository:** https://github.com/ruarkferreira/frametab-signal-agent  
 **Submitted:** May 2026
 
 ---
@@ -88,12 +88,12 @@ export function listKitTools(): string[] {
 
 The Signal Agent has executed real mainnet HBAR transfers. A successful 1-tinybar signal was sent from the FrameTab operator wallet (`0.0.10487520`) to an NFT owner, with the engagement memo written permanently to Hedera mainnet.
 
-**To verify:**
-1. Visit [HashScan Mainnet](https://hashscan.io/mainnet/account/0.0.10487520)
-2. Look for outgoing transactions with memos starting `FrameTab signal:`
-3. The transaction response includes `status: "SUCCESS"` and the permanent `transactionId`
+**Confirmed mainnet transaction:**  
+[https://hashscan.io/mainnet/transaction/0.0.10487520@1779447978.806255896](https://hashscan.io/mainnet/transaction/0.0.10487520@1779447978.806255896)
 
-> The live production system at https://app.frametab.gallery has the Signal Agent integrated into the admin dashboard, where the FrameTab team reviews and approves signal groups before each send.
+This 1-tinybar HBAR signal was sent from the FrameTab operator wallet to a live NFT owner with the engagement memo written permanently to Hedera mainnet. The memo starting with `FrameTab signal:` is visible directly on HashScan.
+
+> The live production system at https://www.frametab.gallery has the Signal Agent integrated into the admin dashboard, where the FrameTab team reviews and approves signal groups before each send.
 
 ---
 
@@ -158,9 +158,10 @@ Feedback on the `@hashgraph/hedera-agent-kit` package was filed as **[issue #836
 
 | Resource | URL |
 |----------|-----|
-| Live demo | https://app.frametab.gallery |
-| GitHub repo | https://github.com/ruark-xyz/frametab-signal-agent |
+| Live demo | https://www.frametab.gallery |
+| GitHub repo | https://github.com/ruarkferreira/frametab-signal-agent |
 | HashScan operator wallet | https://hashscan.io/mainnet/account/0.0.10487520 |
+| Demo transaction | https://hashscan.io/mainnet/transaction/0.0.10487520@1779447978.806255896 |
 | Hedera Agent Kit npm | https://www.npmjs.com/package/@hashgraph/hedera-agent-kit |
 | Hedera Agent Kit repo | https://github.com/hashgraph/hedera-agent-kit-js |
 | Feedback filed | https://github.com/hashgraph/hedera-agent-kit-js/issues/836 |
