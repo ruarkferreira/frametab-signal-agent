@@ -2,7 +2,7 @@
 
 > An agentic Hedera system that rewards NFT collectors by sending on-chain HBAR signals to current NFT owners, with engagement data encoded in public transaction memos.
 
-**Live demo:** [app.frametab.gallery](https://www.frametab.gallery)  
+**Live demo:** [www.frametab.gallery](https://www.frametab.gallery)  
 **Bounty submission:** [docs/bounty-submission.md](./docs/bounty-submission.md)
 
 ---
