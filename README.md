@@ -2,14 +2,14 @@
 
 > An agentic Hedera system that rewards NFT collectors by sending on-chain HBAR signals to current NFT owners, with engagement data encoded in public transaction memos.
 
-**Live demo:** [app.frametab.gallery](https://app.frametab.gallery)  
+**Live demo:** [app.frametab.gallery](https://www.frametab.gallery)  
 **Bounty submission:** [docs/bounty-submission.md](./docs/bounty-submission.md)
 
 ---
 
 ## What It Does
 
-When users favorite or add NFTs to their watchlist on [FrameTab](https://app.frametab.gallery), the Signal Agent:
+When users favorite or add NFTs to their watchlist on [FrameTab](https://www.frametab.gallery), the Signal Agent:
 
 1. **Detects engagement** — aggregates daily favorites + watchlist additions per NFT
 2. **Resolves the current owner** — queries the Hedera Mirror Node for the live on-chain owner
@@ -130,7 +130,7 @@ const result = await handleTransaction(tx, client, context); // AgentMode.AUTONO
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/ruark-xyz/frametab-signal-agent
+git clone https://github.com/ruarkferreira/frametab-signal-agent
 cd frametab-signal-agent
 npm install
 
@@ -224,4 +224,4 @@ src/
 
 ## License
 
-MIT — built by [FrameTab](https://app.frametab.gallery) for the Hedera Agent AI Bounty Week 1.
+MIT — built by [FrameTab](https://www.frametab.gallery) for the Hedera Agent AI Bounty Week 1.
